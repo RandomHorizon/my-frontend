@@ -552,12 +552,12 @@ const Home = (props: HomeProps) => {
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="https://twitter.com/SaviorsnSinners" target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a href="https://opensea.io/The-Saviour-Project" target="_blank"
+                               rel="noopener noreferrer">OpenSea</a></li>
+                        <li><a href="https://discord.com/channels/967403396980174878/967403396980174880" target="_blank"
+                               rel="noopener noreferrer">Discord</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -565,12 +565,13 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
+                <ShimmerTitle>The Saviour Project !</ShimmerTitle>
                 <br/>
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>First Wave Heroes </h2>
+                            <h2>Mint Is Live !</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -658,12 +659,20 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>To Be Customized</GoldTitle></LogoAligner>
-                            <p>Your description goes here.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>About The Collection</GoldTitle></LogoAligner>
+                            <p>The genesis release of The Saviour Project known as Saviours and Sinners.</p>
+                            <p>The first free mint event will be of the genesis Saviours soon followed by</p>
+                            <p>the Sinners villain characters. This collection consists of 2500 unique PFP</p>
+                            <p>style NFTs. The First Wave mint will be the foundation to the entire Saviour Project</p>
+                            <p>moving forward, followed by regular mint events.</p>
+                            <p>Each Saviour held reserves your place in the Saviour Project family going forward.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>To Be Customized</GoldTitle></LogoAligner>
-                            <p>Your description goes here.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>About The Project</GoldTitle></LogoAligner>
+                            <p>The Saviour Project is focused on bringing utility to its holders, allowing The Saviour Project</p>
+                            <p>to give back and help those in need suffering from mental health and addiction.</p>
+                            <p>The future of the project includes giveaways, community wallets and monthly crypto pools</p>
+                            <p>a comic series, custom artwork and NFTs, merchandise, mobile game and more.</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
